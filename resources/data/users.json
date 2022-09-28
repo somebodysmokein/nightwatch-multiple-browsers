@@ -1,0 +1,17 @@
+{
+	"locked_user": {
+		"password": "testingisfun99"
+	},
+	"demouser": {
+		"password": "testingisfun99"
+	},
+	"image_not_loading_user": {
+		"password": "testingisfun99"
+	},
+	"existing_orders_user": {
+		"password": "testingisfun99"
+	},
+	"fav_user": {
+		"password": "testingisfun99"
+	}
+}

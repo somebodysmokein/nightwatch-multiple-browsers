@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="product.index.test"
+    errors="0" failures="0" hostname="" id="" package="product" skipped="0"
+    tests="2" time="9.382" timestamp="">
+  
+    <testcase name="Apple And Samsung Filter" classname="product.index.test" time="5.940" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Apply &#39;Lowest to Highest&#39; Order By Filter for prices" classname="product.index.test" time="3.442" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

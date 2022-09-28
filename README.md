@@ -318,11 +318,17 @@ In this section, we will run the tests in parallel on a single browser on Browse
 
 ### Run the entire test suite in parallel on multiple BrowserStack browsers
 
-In this section, we will run the tests in parallel on multiple browsers on Browserstack. Refer to the `parallel` object in `caps.json` file to change test capabilities for this configuration.
+In this section, we will run the tests in parallel on multiple browsers on Browserstack. The browserstack.json has the following environment configuration
 
+    ```"Windows": {
+        "browsers": ["chrome","firefox","edge"],
+        "os": "Windows"
+    }
+    ```
+    
 -   How to run multiple broiwsers for a specific os?
 
-    To run the  =test suite in parallel on multiple BrowserStack browsers for the same os, use the following command:
+    To run the test suite in parallel on multiple BrowserStack browsers for the same os, use the following command:
 
     ```sh
     npm run bstack-parallel-multiple-os
